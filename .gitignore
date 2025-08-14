@@ -1,0 +1,15 @@
+# Python / local environment
+__pycache__/
+*.pyc
+
+# Sensitive / secret files
+client_secret*.json
+token.pickle
+keys/
+*.key
+*.enc
+
+# OS / IDE
+.DS_Store
+.vscode/
+*.log
