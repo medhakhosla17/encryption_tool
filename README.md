@@ -11,21 +11,21 @@ Features
 6. Secure Configuration: Sensitive files like API credentials are excluded via .gitignore.
 <br>
 How It Works <br>
-1.	The tool monitors an input folder for new files.
-2.	Each file is encrypted locally using a unique file key, which is itself encrypted with the master key.
+1.	The tool monitors an input folder for new files. <br>
+2.	Each file is encrypted locally using a unique file key, which is itself encrypted with the master key.<br>
 3.	The encrypted files are uploaded to Google Drive using the Drive API.
-4.	Encrypted files can be downloaded and decrypted on demand using the master key.
+4.	Encrypted files can be downloaded and decrypted on demand using the master key.<br>
 5.	The master key can be rotated periodically to enhance security.
 <br>
 <br>
 Setup & Installation
-1.	Clone the repository (without secrets): git clone https://github.com/medhakhosla17/encrytion_tool.git cd encrytion_tool
-2.	Install dependencies: pip install -r requirements.txt
+1.	Clone the repository (without secrets): git clone https://github.com/medhakhosla17/encrytion_tool.git cd encrytion_tool <br>
+2.	Install dependencies: pip install -r requirements.txt <br>
 3.	Set up input/output directories (optional, defaults exist):
 •	input_files/ – place files to be encrypted.
 •	temp_encrypted/ – temporary storage for encrypted files.
-•	decrypted_files/ – decrypted files will be saved here.
-4.	Add Google API credentials: Place your client_secret.json in the project folder
+•	decrypted_files/ – decrypted files will be saved here. <br>
+4.	Add Google API credentials: Place your client_secret.json in the project folder <br>
 
 <br>
 Usage
