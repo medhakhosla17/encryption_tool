@@ -60,5 +60,5 @@ Future Enhancements <br>
 
 <br>
 Project Purpose<br>
-This project demonstrates practical cybersecurity skills in encryption, key management, and secure API integration. It is designed to safeguard sensitive data and showcase applied knowledge for real-world security use cases. kj
+This project demonstrates practical cybersecurity skills in encryption, key management, and secure API integration. It is designed to safeguard sensitive data and showcase applied knowledge for real-world security use cases. 
 
