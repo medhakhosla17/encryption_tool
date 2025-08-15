@@ -10,7 +10,7 @@ Features
 5. Selective Sync: Only encrypts and uploads files that haven’t been uploaded before.
 6. Secure Configuration: Sensitive files like API credentials are excluded via .gitignore.
 <br>
-How It Works
+How It Works <br>
 1.	The tool monitors an input folder for new files.
 2.	Each file is encrypted locally using a unique file key, which is itself encrypted with the master key.
 3.	The encrypted files are uploaded to Google Drive using the Drive API.
