@@ -28,37 +28,37 @@ Setup & Installation
 4.	Add Google API credentials: Place your client_secret.json in the project folder <br>
 
 <br>
-Usage
+Usage <br>
 Run the tool:
 python sync_encrypt.py
-Options in the tool:
-1.	Encrypt and upload new files automatically.
-2.	Decrypt a file from Google Drive on demand.
-3.	Exit the program safely when done.
+Options in the tool: <br>
+1.	Encrypt and upload new files automatically. <br>
+2.	Decrypt a file from Google Drive on demand. <br>
+3.	Exit the program safely when done. <br>
 
 <br>
-Security & Best Practices
-•	Sensitive files such as client_secret.json and token.pickle are excluded from Git using .gitignore.
-•	Encryption keys are never stored in plaintext.
-•	Master key rotation is implemented to ensure long-term security.
-•	Integration with Google Drive API is handled securely, ensuring safe cloud storage.
+Security & Best Practices <br>
+•	Sensitive files such as client_secret.json and token.pickle are excluded from Git using .gitignore. <br>
+•	Encryption keys are never stored in plaintext. <br>
+•	Master key rotation is implemented to ensure long-term security. <br>
+•	Integration with Google Drive API is handled securely, ensuring safe cloud storage. <br>
 
 <br>
-Technologies & Tools Used
-•	Python 3 – programming language
-•	Cryptography – Fernet for symmetric encryption
-•	Google Drive API – cloud integration
-•	JSON / Pickle – configuration and metadata storage
-•	Schedule & Threading – periodic key rotation
-•	OS & File Handling – for secure local file management
+Technologies & Tools Used <br>
+•	Python 3 – programming language <br>
+•	Cryptography – Fernet for symmetric encryption <br>
+•	Google Drive API – cloud integration <br>
+•	JSON / Pickle – configuration and metadata storage <br>
+•	Schedule & Threading – periodic key rotation <br>
+•	OS & File Handling – for secure local file management <br>
 
 <br>
-Future Enhancements
-•	Support for multiple cloud providers (AWS S3, Azure, etc.)
-•	Logging and alerting for file uploads and downloads
-•	GUI interface for non-technical users
+Future Enhancements <br>
+•	Support for multiple cloud providers (AWS S3, Azure, etc.)<br>
+•	Logging and alerting for file uploads and downloads<br>
+•	GUI interface for non-technical users<br>
 
 <br>
-Project Purpose
+Project Purpose<br>
 This project demonstrates practical cybersecurity skills in encryption, key management, and secure API integration. It is designed to safeguard sensitive data and showcase applied knowledge for real-world security use cases.
 
